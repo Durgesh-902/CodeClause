@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(./URL\ BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #f7f749;
+    color: #000080;
+    height: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav #links {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav a:first-child {
+    text-decoration: none;
+    color: #000080;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+nav h1 {
+    align-self: center;
+    color: #333;
+    margin-right: 53vw;
+    padding: 0;
+  }
+
+form {
+    display: flex;
+    margin: 25vh auto;
+    max-width: 80%;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px 0 0 10px;
+    outline-color: white;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    height: 60px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#shortenedUrlDiv {
+    margin: 10px auto 0 auto;
+    max-width: 80%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+p {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#copyButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#copyButton:hover {
+    background-color: #0056b3;
+}
+
+#shortenedUrl {
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
